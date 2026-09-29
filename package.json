@@ -1,0 +1,9 @@
+{
+  "name": "mahaniyam-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MahaNiyam frontend demonstration. No APIs, no backend services, no runtime dependencies.",
+  "engines": { "node": ">=20" },
+  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "build": "node build.mjs", "preview": "node server.mjs --dist" }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="MahaNiyam — a visual demonstration of a clearer industrial approval journey.">
+  <title>MahaNiyam — Industrial workspace</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%231a73e8'/%3E%3Cpath d='M12 34V15l12 13 12-13v19' fill='none' stroke='%23ffffff' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="console.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace</a>
+  <div class="mobile-shade" id="mobile-shade"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Workspace navigation">
+    <a class="brand" href="#overview" aria-label="MahaNiyam home"><span class="brand-symbol">M</span><span>MahaNiyam<span class="brand-tag">Industrial workspace</span></span></a>
+    <div class="workspace-label">YOUR WORKSPACE</div>
+    <nav id="navigation"></nav>
+    <div class="sidebar-bottom"><div class="sidebar-note"><span class="live-dot"></span> Demo workspace<p>Sample data. Changes stay<br>in this browser.</p><button class="text-link light" data-action="tour">Explore the demo <span>↗</span></button></div>
+      <button class="user-card" data-action="profile"><span class="avatar">AK</span><span><strong>Aditya Kulkarni</strong><small>Industrial unit owner</small></span><span class="user-more">···</span></button>
+    </div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button menu-button" data-action="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="breadcrumb">Workspace <span>/</span> <strong id="crumb">Overview</strong></div>
+      <div class="topbar-actions"><div class="search-wrap"><label class="search-box"><span id="search-icon"></span><input id="search" placeholder="Find an approval, document…" aria-label="Search workspace" autocomplete="off" aria-controls="search-results"><kbd>/</kbd></label><div id="search-results" class="search-results" hidden></div></div>
+        <span class="demo-badge"><span></span> Interactive demo</span>
+        <button class="icon-button notification-button" data-action="notifications" aria-label="View notifications"><span id="bell-icon"></span><i id="notification-dot"></i></button>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="page-footer"><span>MahaNiyam <span class="footer-dot">·</span> Industrial approvals workspace.</span><button class="text-link muted" data-action="reset">Reset demo</button><span>SIH 26130 <span class="footer-dot">/</span> Team Honey Badger</span></footer>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript>This interactive frontend demo needs JavaScript enabled. It uses sample data and makes no API calls.</noscript>
+</body>
+</html>

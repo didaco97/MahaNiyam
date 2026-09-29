@@ -1,0 +1,479 @@
+[
+  {
+    "slide": "technical",
+    "line": 1,
+    "reference": "Archival Capture: Overhead scanning at 300/400 dpi for text and 600 dpi for",
+    "replacement": "Rule Sources: Link each approval to the official act and service rule [1,2]",
+    "characters": 75,
+    "words": 13,
+    "width_scale": 1.0532
+  },
+  {
+    "slide": "technical",
+    "line": 2,
+    "reference": "manuscripts/photos, in 24-bit colour. [1]",
+    "replacement": "with sources, jurisdictions and validity.",
+    "characters": 41,
+    "words": 5,
+    "width_scale": 1.0328
+  },
+  {
+    "slide": "technical",
+    "line": 3,
+    "reference": "OCR & AV Processing: OpenCV + Tesseract for print; FFmpeg → Whisper-small",
+    "replacement": "Rule Encoding: OPA / Rego checks typed facts; returns reasons or warnings",
+    "characters": 73,
+    "words": 12,
+    "width_scale": 1.0513
+  },
+  {
+    "slide": "technical",
+    "line": 4,
+    "reference": "for timestamped transcripts. [2]",
+    "replacement": "for unresolved requirements. [9]",
+    "characters": 32,
+    "words": 4,
+    "width_scale": 0.9729
+  },
+  {
+    "slide": "technical",
+    "line": 5,
+    "reference": "Source Records: TIFF/LZW masters [1], SHA-256 checksums [3] and page/time",
+    "replacement": "Case Records: Store profiles, source clauses, versions and saved evidence",
+    "characters": 73,
+    "words": 10,
+    "width_scale": 1.0597
+  },
+  {
+    "slide": "technical",
+    "line": 6,
+    "reference": "chunks linked to source versions.",
+    "replacement": "links beside every case snapshot.",
+    "characters": 33,
+    "words": 5,
+    "width_scale": 0.9858
+  },
+  {
+    "slide": "technical",
+    "line": 7,
+    "reference": "Metadata & Maps: Dublin Core tags and access-rights metadata [4], with curator-",
+    "replacement": "Dependency Plan: Use NetworkX to order tasks and check prerequisites [10], with",
+    "characters": 79,
+    "words": 12,
+    "width_scale": 0.9838
+  },
+  {
+    "slide": "technical",
+    "line": 8,
+    "reference": "reviewed entity/date relationships.",
+    "replacement": "reviewed departmental dependencies.",
+    "characters": 35,
+    "words": 3,
+    "width_scale": 0.8914
+  },
+  {
+    "slide": "technical",
+    "line": 9,
+    "reference": "Hybrid Ranking: Multilingual E5-small: 384-dimension vectors [5] + PostgreSQL",
+    "replacement": "Document Intake: pypdf extracts; Tesseract transcribes scanned documents [11]",
+    "characters": 77,
+    "words": 9,
+    "width_scale": 0.9831
+  },
+  {
+    "slide": "technical",
+    "line": 10,
+    "reference": "text search; fuse ranks using RRF. [6]",
+    "replacement": "then ask staff to check parsed fields.",
+    "characters": 38,
+    "words": 7,
+    "width_scale": 1.0355
+  },
+  {
+    "slide": "technical",
+    "line": 11,
+    "reference": "RAG Pipeline: Filter access; retrieve evidence → generate context-based",
+    "replacement": "Case Workflow: Track submission, officer queries and inspection booking",
+    "characters": 71,
+    "words": 9,
+    "width_scale": 0.9981
+  },
+  {
+    "slide": "technical",
+    "line": 12,
+    "reference": "answers [7] → resolve citation IDs.",
+    "replacement": "with the decision made by officers.",
+    "characters": 35,
+    "words": 6,
+    "width_scale": 1.0098
+  },
+  {
+    "slide": "technical",
+    "line": 13,
+    "reference": "Avatar Transport: WebRTC media + authenticated streaming API and LAM",
+    "replacement": "Service Clocks: Track receipt, query and response events per service",
+    "characters": 68,
+    "words": 10,
+    "width_scale": 1.074
+  },
+  {
+    "slide": "technical",
+    "line": 14,
+    "reference": "(Large Avatar Model)[8]; connect conversations to archive retrieval.",
+    "replacement": "with service-specific calendars and applicable pause conditions. [2]",
+    "characters": 68,
+    "words": 8,
+    "width_scale": 1.0036
+  },
+  {
+    "slide": "technical",
+    "line": 15,
+    "reference": "Update Pipeline: Source-version changes flag derivatives; review, publish",
+    "replacement": "Change Processing: Operational changes flag requirements; review, compare",
+    "characters": 73,
+    "words": 8,
+    "width_scale": 0.9423
+  },
+  {
+    "slide": "technical",
+    "line": 16,
+    "reference": "manifests and refresh connected devices.",
+    "replacement": "documents and retain previous snapshots.",
+    "characters": 40,
+    "words": 5,
+    "width_scale": 0.983
+  },
+  {
+    "slide": "technical",
+    "line": 17,
+    "reference": "Prototype Host: Reuse a laptop/mini PC; target 4 cores, 16 GB RAM, 256 GB SSD.",
+    "replacement": "Portal UI: React and TypeScript give each role a view of the same shared case.",
+    "characters": 78,
+    "words": 15,
+    "width_scale": 1.0228
+  },
+  {
+    "slide": "technical",
+    "line": 18,
+    "reference": "Touch Kiosk: 32” FHD capacitive screen [9], browser PC, mic and headphones.",
+    "replacement": "API Service: FastAPI validates each case and records its state with events.",
+    "characters": 75,
+    "words": 12,
+    "width_scale": 1.064
+  },
+  {
+    "slide": "technical",
+    "line": 19,
+    "reference": "Smart Display: 43” 4K HDMI panel [9] with a player; reuse compatible screens.",
+    "replacement": "Rule Engine: OPA checks facts and NetworkX labels each task ready or blocked.",
+    "characters": 77,
+    "words": 13,
+    "width_scale": 0.9707
+  },
+  {
+    "slide": "technical",
+    "line": 20,
+    "reference": "Local Network: Connect the host, kiosks, displays and staff PCs over 1 GbE.",
+    "replacement": "Batch Jobs: Queue OCR and alerts, then retry safe calls to each department.",
+    "characters": 75,
+    "words": 13,
+    "width_scale": 0.9963
+  },
+  {
+    "slide": "technical",
+    "line": 21,
+    "reference": "Backup & Power: Use a UPS, independent backups and regular restore checks.",
+    "replacement": "Data Store: Log case records in PostgreSQL and files with access controls.",
+    "characters": 74,
+    "words": 12,
+    "width_scale": 1.0691
+  },
+  {
+    "slide": "technical",
+    "line": 22,
+    "reference": "Integration: Reuse compatible hosts; DAIC research PCs [10] enable access.",
+    "replacement": "Integration: API adapters sync official status; demo calls stay simulated.",
+    "characters": 74,
+    "words": 10,
+    "width_scale": 1.0753
+  },
+  {
+    "slide": "feasibility",
+    "line": 1,
+    "reference": "MVP Hardware: Reuse a laptop, one touch",
+    "replacement": "Test Units: Model two factories and one",
+    "characters": 39,
+    "words": 7,
+    "width_scale": 1.077
+  },
+  {
+    "slide": "feasibility",
+    "line": 2,
+    "reference": "device and a second display.",
+    "replacement": "change in a working profile.",
+    "characters": 28,
+    "words": 5,
+    "width_scale": 1.0566
+  },
+  {
+    "slide": "feasibility",
+    "line": 3,
+    "reference": "Pilot Scope: Start with approximately 150",
+    "replacement": "Pilot Checks: Twenty profiles plus twelve",
+    "characters": 41,
+    "words": 6,
+    "width_scale": 1.0071
+  },
+  {
+    "slide": "feasibility",
+    "line": 4,
+    "reference": "reviewed pages and 3 AV items.",
+    "replacement": "files and ten case flow tests.",
+    "characters": 30,
+    "words": 6,
+    "width_scale": 1.1463
+  },
+  {
+    "slide": "feasibility",
+    "line": 5,
+    "reference": "Workload Control: Batch OCR and transcription",
+    "replacement": "Workload Control: Schedule OCR and extraction",
+    "characters": 45,
+    "words": 6,
+    "width_scale": 0.9747
+  },
+  {
+    "slide": "feasibility",
+    "line": 6,
+    "reference": "before interactive sessions.",
+    "replacement": "before departmental reviews.",
+    "characters": 28,
+    "words": 3,
+    "width_scale": 0.9398
+  },
+  {
+    "slide": "feasibility",
+    "line": 7,
+    "reference": "Integration Checks: Test touch, audio, display",
+    "replacement": "Adapter Checks: Log events, receipt, deadlines",
+    "characters": 46,
+    "words": 6,
+    "width_scale": 0.9729
+  },
+  {
+    "slide": "feasibility",
+    "line": 8,
+    "reference": "playback and device sync.",
+    "replacement": "and failed API responses.",
+    "characters": 25,
+    "words": 4,
+    "width_scale": 1.0227
+  },
+  {
+    "slide": "feasibility",
+    "line": 9,
+    "reference": "Equipment Reuse: Assess institutional PCs and",
+    "replacement": "Portal Fit: Connect authorised interfaces and",
+    "characters": 45,
+    "words": 6,
+    "width_scale": 1.0705
+  },
+  {
+    "slide": "feasibility",
+    "line": 10,
+    "reference": "screens before new purchases.",
+    "replacement": "imports with tracked sources.",
+    "characters": 29,
+    "words": 4,
+    "width_scale": 1.0768
+  },
+  {
+    "slide": "feasibility",
+    "line": 11,
+    "reference": "AI Running Cost: Budget paid avatar usage [8]",
+    "replacement": "AI Usage Costs: Cap optional model usage fees",
+    "characters": 45,
+    "words": 8,
+    "width_scale": 0.9762
+  },
+  {
+    "slide": "feasibility",
+    "line": 12,
+    "reference": "and enforce session limits.",
+    "replacement": "and retain source excerpts.",
+    "characters": 27,
+    "words": 4,
+    "width_scale": 0.975
+  },
+  {
+    "slide": "feasibility",
+    "line": 13,
+    "reference": "Content Reuse: Store approved translations and",
+    "replacement": "Evidence Reuse: Check permissions and validity",
+    "characters": 46,
+    "words": 6,
+    "width_scale": 0.9833
+  },
+  {
+    "slide": "feasibility",
+    "line": 14,
+    "reference": "narration for local replay.",
+    "replacement": "before each new submission.",
+    "characters": 27,
+    "words": 4,
+    "width_scale": 0.8486
+  },
+  {
+    "slide": "feasibility",
+    "line": 15,
+    "reference": "Staff Ownership: Curators approve content; IT",
+    "replacement": "Policy Ownership: Reviewers approve rules; IT",
+    "characters": 45,
+    "words": 6,
+    "width_scale": 0.9799
+  },
+  {
+    "slide": "feasibility",
+    "line": 16,
+    "reference": "manages devices and backups.",
+    "replacement": "manages systems and backups.",
+    "characters": 28,
+    "words": 4,
+    "width_scale": 0.9819
+  },
+  {
+    "slide": "impact",
+    "line": 1,
+    "reference": "Expected impact: Broader access to Ambedkar’s legacy, with evidence people can inspect and institutions can preserve.",
+    "replacement": "Expected impact: Fewer filing errors and clear next actions, with recorded decisions across the industrial lifecycle.",
+    "characters": 117,
+    "words": 16,
+    "width_scale": 1.0499
+  },
+  {
+    "slide": "impact",
+    "line": 2,
+    "reference": "Visitors: Ask the avatar follow-up questions and explore original sources.",
+    "replacement": "Applicants: See required approvals and understand the next action clearly.",
+    "characters": 74,
+    "words": 10,
+    "width_scale": 0.9714
+  },
+  {
+    "slide": "impact",
+    "line": 3,
+    "reference": "Students & Educators: Understand constitutional ideas through timelines and",
+    "replacement": "Industrial Units: Identify renewal requirements and review planned business",
+    "characters": 75,
+    "words": 9,
+    "width_scale": 1.0187
+  },
+  {
+    "slide": "impact",
+    "line": 4,
+    "reference": "debates.",
+    "replacement": "changes.",
+    "characters": 8,
+    "words": 1,
+    "width_scale": 0.9424
+  },
+  {
+    "slide": "impact",
+    "line": 5,
+    "reference": "Researchers: Save cited excerpts and AV timestamps in one research",
+    "replacement": "Officers: Review evidence changes and queries within one full case",
+    "characters": 66,
+    "words": 10,
+    "width_scale": 1.0409
+  },
+  {
+    "slide": "impact",
+    "line": 6,
+    "reference": "collection.",
+    "replacement": "chronology.",
+    "characters": 11,
+    "words": 1,
+    "width_scale": 0.8561
+  },
+  {
+    "slide": "impact",
+    "line": 7,
+    "reference": "Curators: Review corrections and republish affected stories across exhibits.",
+    "replacement": "Inspectors: Coordinate selected visits and review assigned case information.",
+    "characters": 76,
+    "words": 9,
+    "width_scale": 0.9839
+  },
+  {
+    "slide": "impact",
+    "line": 8,
+    "reference": "Accessible Learning: Multilingual text, captions and narration widen access.",
+    "replacement": "Submission Readiness: Catch omissions upfront and reuse authorised evidence.",
+    "characters": 76,
+    "words": 9,
+    "width_scale": 0.9359
+  },
+  {
+    "slide": "impact",
+    "line": 9,
+    "reference": "Constitutional Awareness: Link rights and equality to Ambedkar’s original works.",
+    "replacement": "Visible Accountability: Separate applicant response time from the officer clock.",
+    "characters": 80,
+    "words": 10,
+    "width_scale": 0.9953
+  },
+  {
+    "slide": "impact",
+    "line": 10,
+    "reference": "Heritage Conservation: Digital access copies reduce routine handling of originals.",
+    "replacement": "Multilingual Guidance: Explain requirements with Marathi and English source links.",
+    "characters": 82,
+    "words": 10,
+    "width_scale": 0.9499
+  },
+  {
+    "slide": "impact",
+    "line": 11,
+    "reference": "Resource Efficiency: Reuse compatible equipment and approved media across",
+    "replacement": "Scheme Discovery: Assess eligibility criteria and documents with official",
+    "characters": 73,
+    "words": 9,
+    "width_scale": 1.1003
+  },
+  {
+    "slide": "impact",
+    "line": 12,
+    "reference": "displays.",
+    "replacement": "services.",
+    "characters": 9,
+    "words": 1,
+    "width_scale": 0.9786
+  },
+  {
+    "slide": "research",
+    "line": 1,
+    "reference": "Preservation: NAI guidance and PREMIS inform original-file preservation and event records. [1,12]",
+    "replacement": "Workflow: MAITRI regulations inform case histories, service deadlines and query processing. [1,2]",
+    "characters": 97,
+    "words": 12,
+    "width_scale": 1.0039
+  },
+  {
+    "slide": "research",
+    "line": 2,
+    "reference": "Retrieval: Multilingual embeddings, rank fusion and RAG inform source-based answers. [5–7]",
+    "replacement": "Services: NSWS and departmental portals inform applications and evidence checklists. [4–7]",
+    "characters": 90,
+    "words": 11,
+    "width_scale": 1.0078
+  },
+  {
+    "slide": "research",
+    "line": 3,
+    "reference": "Institutional Fit: Published workstation and screen specifications inform equipment reuse. [9,10]",
+    "replacement": "Implementation: OPA, NetworkX, PostgreSQL and OCR enable explainable, auditable workflows. [9–12]",
+    "characters": 97,
+    "words": 11,
+    "width_scale": 0.9188
+  }
+]
